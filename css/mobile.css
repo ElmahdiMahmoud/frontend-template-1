@@ -1,0 +1,12 @@
+@media all and (orientation:portrait) {}
+@media all and (orientation:landscape) {}
+@media screen and (max-device-width: 480px) { 
+  /* All Capable Mobile Browser (Opera Mobile, iPhone Safari, Android Chrome) CSS goes here */
+  html { -webkit-text-size-adjust: none; } 
+  * { 
+    float: none; /* Screens are not big enough to account for floats */ 
+    font-size: 80%; /* Slightly reducing font size to reduce need to scroll */ 
+    background: white; color: black; /*  As much contrast as possible */ 
+  }
+  
+}
