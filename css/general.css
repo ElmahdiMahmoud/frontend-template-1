@@ -1,7 +1,7 @@
 /* DEFAULT STYLES */
 /* styling the basics. original author: paul irish TODO: consider: http://developer.yahoo.com/yui/base/ */
 body, select, input, textarea { color: #444444; }
-a, a:active, a:visited { color: #607890; }
+a, a:active, a:visited { color: #0085CF; }
 a:hover { color: #003366; }
 /* http://j.mp/webkit-tap-highlight-color */
 a:link { -webkit-tap-highlight-color: rgba(200, 0, 0, 0.4); }
@@ -28,8 +28,8 @@ html { overflow-y: scroll; }
 button { width: auto; overflow: visible; }
 
 /* Needs to be separate from moz-selection https://developer.mozilla.org/En/CSS/::selection#Browser_compatibility */
-::-moz-selection { background: #ff5e99; color: white; text-shadow: none; }
-::selection { background: #ff5e99; color: white; text-shadow: none; }
+::-moz-selection { background: #B5D5FF; text-shadow: none; }
+::selection { background: #B5D5FF; text-shadow: none; }
 
 /* bicubic resizing for non-native sized IMG: http://code.flickr.com/blog/2008/11/12/on-ui-quality-the-little-things-client-side-image-resizing/ */
 .ie7 img { -ms-interpolation-mode: bicubic; }
