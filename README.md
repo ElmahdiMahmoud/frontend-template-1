@@ -10,5 +10,5 @@
 1. ir: image replacement
 2. clearfix: clears item
 3. hidden: display none
-4. visuallyhidden: hide true locating off screen
+4. visuallyhidden: hide by locating off screen
 5. invisible: visibility hidden

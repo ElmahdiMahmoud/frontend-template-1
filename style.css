@@ -1,6 +1,14 @@
+/*!	
+  Author  Aziz A. Bargi
+  Version v1.0 | 2010-05-26
+__________________________________*/
+
 @import url('css/reset.css');
 @import url('css/typography.css');
 @import url('css/general.css');
 @import url('css/forms.css');
+@import url('css/tables.css');
 @import url('css/print.css');
 @import url('css/mobile.css');
+
+@import url('css/grid12.css');
