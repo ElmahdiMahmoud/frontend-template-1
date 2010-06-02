@@ -1,9 +1,16 @@
-## TODO ##
+## Features
 
-- blueprint
-- http://baselinecss.com/
-- form styles with formtastic syntax
-- html lorem document
+ 1. Cross Browser. IE6 too!  + IE6 PNG transparency
+ 2. Valid HTML5
+ 3. Favicon + iPhone favicon 
+ 4. Reset, forms, tables and grid (12/16 cols based on 1kb grid system) CSS
+ 5. Media queries (print and mobile)
+ 6. jQuery (pulled from the Google CDN)
+ 7. @font-face support + typography css and web font loader javascript
+ 8. modernizr + css browser selector javascripts
+ 9. Reusable classes
+ 10. Google frame chrome ready
+
 
 ## CSS Documentation ##
 
