@@ -1,9 +1,25 @@
 /* TYPOGRAPHY */
-/* fonts.css from the YUI Library: http://developer.yahoo.com/yui/ */
-body { font: 13px/1.231 arial, helvetica, sans-serif; *font-size: small; *font: x-small; }
-select, input, button, textarea, button { font: 99% arial, helvetica, sans-serif; }
-table { font-size: inherit; font: 100%; }
-pre, code, kbd, samp, tt { font-family: monospace; *font-size: 108%; line-height: 100%; }
+/* fonts.css from the YUI Library: http://developer.yahoo.com/yui/  with some changes*/
+body { 
+  font: 12px/1.5 "lucida grande","Segoe UI","Droid Sans", helvetica, arial, sans-serif; 
+  *font-size: small; 
+  *font: x-small; 
+}
+
+select, input, button, textarea, button { 
+  font: 99% arial, helvetica, sans-serif; 
+}
+
+table { 
+  font-size: inherit; 
+  font: 100%; 
+}
+
+pre, code, kbd, samp, tt { 
+  font-family: "Monaco", "consolas", "Droid Sans Mono", "Courier New", Courier, monospace; 
+  *font-size: 108%; 
+  line-height: 100%; 
+}
 
 
 /*DEV MODE*/
@@ -12,9 +28,6 @@ body { background:url("../images/baseline.gif");}
 
 
 /*Font Stacks*/
-
 /* Helvetica, Arial, "DejaVu Sans", "Liberation sans", "Bitstream Vera Sans", sans-serif; */
-/* "Monaco", consolas, "Droid Sans Mono", "Courier New", Courier, monospace; */
-/* "lucida grande","Segoe UI","Droid Sans" */
 /* "Myriad Pro", */
 /* Baskerville, "Goudy Old Style", Palatino, "Book Antiqua", "URW Chancery L", Gentium, serif; */

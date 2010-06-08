@@ -117,8 +117,33 @@ pre {
 	word-wrap: break-word;      /* IE 5+ */
 }
 
-/* Remove it if you don't like it. */
-:focus{outline:none;}
+/* Remove it if you don't like it. http://www.karlrixon.co.uk/articles/css/remove-button-focus-outline-using-css/ */
+:focus {
+  -moz-outline-style: none;
+  outline:none; 
+}
+button::-moz-focus-inner,
+input[type="reset"]::-moz-focus-inner,
+input[type="button"]::-moz-focus-inner,
+input[type="submit"]::-moz-focus-inner,
+input[type="file"] > input[type="button"]::-moz-focus-inner {
+    border: none;
+}
+
 
 /* Remove annoying border on linked images. */
 a img { border: none; }
+
+/* always force a scrollbar in non-IE: http://css-tricks.com/eliminate-jumps-in-horizontal-centering-by-forcing-a-scroll-bar/ */
+html { overflow-y: scroll; }
+
+/* make buttons play nice in IE: http://www.viget.com/inspire/styling-the-button-element-in-internet-explorer/ */
+button { width: auto; overflow: visible; }
+
+/* Needs to be separate from moz-selection https://developer.mozilla.org/En/CSS/::selection#Browser_compatibility */
+::-moz-selection { background: #B5D5FF; text-shadow: none; }
+::selection { background: #B5D5FF; text-shadow: none; }
+
+/* bicubic resizing for non-native sized IMG: http://code.flickr.com/blog/2008/11/12/on-ui-quality-the-little-things-client-side-image-resizing/ */
+.ie7 img { -ms-interpolation-mode: bicubic; }
+

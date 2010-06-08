@@ -1,3 +1,8 @@
+> Please Read ["Isobar Code Standards & Front-end Development Best Practices"][1] before using this template!
+ 
+[1]: http://molecularvoices.molecular.com/standards/
+
+
 ## Features
 
  1. Cross Browser. IE6 too!  + IE6 PNG transparency
@@ -5,7 +10,7 @@
  3. Favicon + iPhone favicon 
  4. Reset, forms, tables and grid (12/16 cols based on 1kb grid system) CSS
  5. Media queries (print and mobile)
- 6. jQuery (pulled from the Google CDN)
+ 6. jQuery (pulled from the Google CDN) and also included locally
  7. @font-face support + typography css and web font loader javascript
  8. modernizr + css browser selector javascripts
  9. Reusable classes
@@ -14,11 +19,11 @@
 
 ## CSS Documentation ##
 
-1. ir: image replacement
-2. clearfix: clears item
-3. hidden: display none
-4. visuallyhidden: hide by locating off screen
-5. invisible: visibility hidden
+1. **ir**: image replacement
+2. **clearfix**: clears item
+3. **hidden**: display none
+4. **visuallyhidden**: hide by locating off screen
+5. **invisible**: visibility hidden
 
 
 ### HTML CLASS 
@@ -84,3 +89,7 @@
   - Input Types
   - Input Attributes
 
+
+### Recommended Reading ###
+
+- <http://developer.fellowshipone.com/patterns>

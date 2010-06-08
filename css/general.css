@@ -21,19 +21,6 @@ td, td img { vertical-align: top; }
 
 /* == EXTRA FEATURES == */
 
-/* always force a scrollbar in non-IE: http://css-tricks.com/eliminate-jumps-in-horizontal-centering-by-forcing-a-scroll-bar/ */
-html { overflow-y: scroll; }
-
-/* make buttons play nice in IE: http://www.viget.com/inspire/styling-the-button-element-in-internet-explorer/ */
-button { width: auto; overflow: visible; }
-
-/* Needs to be separate from moz-selection https://developer.mozilla.org/En/CSS/::selection#Browser_compatibility */
-::-moz-selection { background: #B5D5FF; text-shadow: none; }
-::selection { background: #B5D5FF; text-shadow: none; }
-
-/* bicubic resizing for non-native sized IMG: http://code.flickr.com/blog/2008/11/12/on-ui-quality-the-little-things-client-side-image-resizing/ */
-.ie7 img { -ms-interpolation-mode: bicubic; }
-
 /* for image replacement */
 .ir { display: block; text-indent: -999px; overflow: hidden; background-repeat: none; }
 
